@@ -1,0 +1,40 @@
+:root{
+
+    --bg-fondo: #30415D;
+    --bg-barra:#031424;
+    --color-text:#FFFFFF;
+    --btn-primary:#CF6766;
+}
+body{    
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: var(--bg-fondo);  
+      
+}
+
+.barra{
+    position: absolute;
+    top: 0;  
+     
+    width: 100%;
+    justify-content: center;
+    align-items: center;       
+    color: var(--color-text);
+    background-color: var(--bg-barra);
+}
+.barra h1{
+    margin: 10px;
+font-size: 1.5rem;
+font-weight: 300;
+}
+.btn-volver{
+    margin-top: 5px;
+    margin-left: 15px;
+    position: absolute;
+}
+.card{
+    border-radius: 30px;
+}
+
+.card-title{
+    font-weight: 700;
+}
